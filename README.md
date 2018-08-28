@@ -319,7 +319,7 @@ Once you are done with the development, you can deploy the service using any of 
 
 ### Deploying on Docker
 
-You can run the service that we developed above as a docker container. As Ballerina platform offers native support for running ballerina programs on containers, you just need to put the corresponding docker annotations on your service code. 
+You can run the service that we developed above as a docker container. As Ballerina-lang offers native support for running ballerina programs on containers, you just need to put the corresponding docker annotations on your service code. 
 
 - In our chat_app, we need to import  `` import ballerinax/docker; `` and use the annotation `` @docker:Config `` as shown below to enable docker image generation during the build time. 
 
